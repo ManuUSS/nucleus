@@ -188,3 +188,9 @@ img {
     margin: 0;
     font-size: 2rem;
 }
+
+.security {
+    background-color: var(--primario);
+    padding: 10rem 0;
+    
+}
