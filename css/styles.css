@@ -46,6 +46,13 @@ img {
     background-image: url(../img/header_bg.svg);
     background-repeat: no-repeat;
     background-position: top right;
+    padding: 5rem 0;
+}
+
+.header__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
 }
 
 @media ( min-width: 768px ) {
@@ -53,4 +60,9 @@ img {
         display: flex;
         justify-content: space-between;
     }
+}
+
+.header__logo {
+    width: 15rem;
+    margin: 0 auto 3rem auto;
 }
