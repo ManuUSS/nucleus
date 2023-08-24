@@ -51,7 +51,7 @@ img {
 }
 @media ( min-width: 768px ) {
     .header {
-        background-size: 45rem;
+        background-size: 50rem;
     }
 }
 @media ( min-width: 992px ) {
@@ -61,7 +61,7 @@ img {
 }
 @media ( min-width: 1280px ) {
     .header {
-        background-size: 120rem;
+        background-size: 110rem;
     }
 }
 
@@ -85,5 +85,24 @@ img {
 @media ( min-width: 768px ) {
     .header__logo {
         margin: 0;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media ( min-width: 768px ) {
+    .nav {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+}
+
+@media ( min-width: 768px ) {
+    .nav__link {
+        color: var(--blanco);
     }
 }
