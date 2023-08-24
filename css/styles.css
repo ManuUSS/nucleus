@@ -168,6 +168,7 @@ img {
 
 .list__element {
     box-shadow: 0px 0px 12px 1px rgb(0 0 0 / .20);
+    background-color: var(--blanco);
     padding: 2rem;
     margin-bottom: 5rem;
     transition: transform .3s ease-in;
@@ -194,4 +195,12 @@ img {
 
 .security__heading {
     color: var(--blanco);
+}
+@media ( min-width: 768px ) {
+    .security__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        align-items: center;
+    }
 }
