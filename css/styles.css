@@ -190,12 +190,34 @@ img {
 
 .security {
     background-color: var(--primario);
-    padding: 10rem 0;
+    padding: 20rem 0;
+    position: relative;
+    margin: 10rem 0;
+    overflow: hidden;
+}
+.security::after,
+.security::before {
+    background-color: var(--blanco);
+    content: '';
+    height: 20rem;
+    width: 120%;
+    position: absolute;
+}
+.security::before {
+    top: -10rem;
+    left: 0;
+    transform: rotate(3deg);
+}
+.security::after {
+    transform: rotate(-3deg);
+    bottom: -10rem;
+    left: 0;
 }
 
 .security__heading {
     color: var(--blanco);
 }
+
 @media ( min-width: 768px ) {
     .security__grid {
         display: grid;
