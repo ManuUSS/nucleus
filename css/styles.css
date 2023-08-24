@@ -41,6 +41,10 @@ img {
     margin: 0 auto;
     width: 90%;
 }
+[class$="__heading"] {
+    text-align: center;
+    margin-bottom: 5rem;
+}
 
 .header {
     background-image: url(../img/header_bg.svg);
@@ -89,7 +93,6 @@ img {
 }
 
 .header__heading {
-    text-align: center;
     font-size: 3rem;
 }
 @media ( min-width: 768px ) {
@@ -149,11 +152,6 @@ img {
     margin-top: 3rem;
 }
 
-.nucleus__heading {
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
 .nucleus__grid {
     display: flex;
     flex-direction: column-reverse;
@@ -192,5 +190,8 @@ img {
 .security {
     background-color: var(--primario);
     padding: 10rem 0;
-    
+}
+
+.security__heading {
+    color: var(--blanco);
 }
