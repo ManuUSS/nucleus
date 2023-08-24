@@ -36,7 +36,7 @@ img {
     max-width: 100%;
     display: block;
 }
-.container {
+[class$="__container"] {
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
@@ -63,12 +63,6 @@ img {
     .header {
         background-size: 110rem;
     }
-}
-
-.header__container {
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
 }
 
 @media ( min-width: 768px ) {
@@ -149,4 +143,13 @@ img {
     .nav__link {
         color: var(--blanco);
     }
+}
+
+.nucleus {
+    margin-top: 3rem;
+}
+
+.nucleus__heading {
+    text-align: center;
+    margin-bottom: 5rem;
 }
