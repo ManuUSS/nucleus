@@ -324,3 +324,8 @@ img {
     font-weight: 700;
     text-align: right;
 }
+
+.footer {
+    background-color: #5A30A0;
+    padding: 3rem 0;
+}
