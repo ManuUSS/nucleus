@@ -274,3 +274,13 @@ img {
         text-align: left;
     }
 }
+
+.testimonials {
+    background-color: var(--primario);
+    padding: 5rem 0;
+}
+
+.testimonials__heading {
+    color: var(--blanco);
+}
+
