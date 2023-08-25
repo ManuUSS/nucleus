@@ -284,3 +284,15 @@ img {
     color: var(--blanco);
 }
 
+.testimonials__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+
+@media ( min-width: 768px ) {
+    .testimonials__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
