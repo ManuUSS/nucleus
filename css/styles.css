@@ -176,6 +176,13 @@ img {
 .list__element:hover{
     transform: scale(1.1);
 }
+@media ( min-width: 768px ) {
+    .list__element--cols{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 .list__heading {
     font-size: 3rem;
@@ -224,5 +231,26 @@ img {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5rem;
         align-items: center;
+    }
+}
+
+@media ( min-width: 768px ) {
+    .comissions__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        align-items: center;
+    }
+}
+
+.comissions__text {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+@media ( min-width: 768px ) {
+    .comissions__text {
+        text-align: left;
+
     }
 }
