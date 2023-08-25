@@ -300,3 +300,12 @@ img {
     background-color: var(--blanco);
     padding: 2rem;
 }   
+
+.testimonial__text {
+
+}
+.testimonial__author {
+    color: var(--blanco);
+    font-weight: 700;
+    text-align: right;
+}
