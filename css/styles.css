@@ -181,6 +181,7 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 2rem;
     }
 }
 
@@ -193,6 +194,21 @@ img {
 .list__text {
     margin: 0;
     font-size: 2rem;
+}
+
+.list__number {
+    color: var(--primario);
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+}
+@media ( min-width: 768px ) {
+    .list__number {
+        flex-basis: 20rem;
+        text-align: right;
+        font-size: 4rem;
+    }
 }
 
 .security {
@@ -239,6 +255,11 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5rem;
+        align-items: flex-end;
+    }
+}
+@media ( min-width: 998px ) {
+    .comissions__grid {
         align-items: center;
     }
 }
@@ -251,6 +272,5 @@ img {
 @media ( min-width: 768px ) {
     .comissions__text {
         text-align: left;
-
     }
 }
