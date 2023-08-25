@@ -147,6 +147,9 @@ img {
         color: var(--blanco);
     }
 }
+.nav__link--white {
+    color: var(--blanco);
+}
 
 .nucleus {
     margin-top: 3rem;
